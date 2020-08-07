@@ -1,51 +1,55 @@
-# 面试常问问题
+# 面试常问问题汇总
+-----
+ 🚀内容涵盖深度学习 机器学习 前端 后台等常见面试问题 🚀
+
+![]('./assert/img/review.png')
 
 ## 深度学习
-###
+
 ### 激活函数
-*  softmax的作用，什么方法取代softmax
-*  
+*  [softmax]('./DeepLearn/other/activate_fn.md')
+
 
 ###评估方法
-* AUC的含义和计算方式
-* 数据不平衡，auc和pr曲线如何选
-* auc和pr在推荐之中的偏好（auc偏向于降低推荐用户不喜欢的内容，pr偏向于提高推荐用户喜欢的内容）
-* 回归、分类用到的评价函数，为什么用。说准确率，AUC。
-* 常见的评价指标有哪些；ROC 曲线 (0,0) (0,1) (1,0) (1,1) 四个点的含义
-* CTR损失函数及意义
-* CTR评价指标，AUC意义
-* 介绍下AUC和F1-score；
+* [AUC]('./DeepLearn/other/evaltion.md')
 
 ### 损失函数
-* 分类和回归都用什么损失函数，分类为什么不用平方损失；
+* [MES]('./DeepLearn/other/evaltion.md')
 
 ### 其他
-* Dropout什么原理；
-* dropout的底层原理
-* .除了梯度下降，还有啥优化方法？为啥不用牛顿法呢？
-* 常见的采样方法？
+* [Dropout]('./DeepLearn/other/other.md')
+
 
 ##  机器学习
 
 ### 朴素贝叶斯
+* [公式推导]('./SVM/Formula.md')
+* [模型理解]('./SVM/interpret.md')
+* [其他]('./SVM/other.md')
 * 朴素贝叶斯公式是怎么得到的，推导一下
-* 
+
 
 ### SVM
-* SVM推导
-* SVM的构造，SVM的损失函数，SVM的核函数
-* SVM用折页损失函数有啥好处？
-* SVM都能用核函数，逻辑回归咋不用呢？
+* [公式推导]('./SVM/Formula.md')
+* [模型理解]('./SVM/interpret.md')
+* [其他]('./SVM/other.md')
+
 
 ### 逻辑回归
-* 逻辑回归模型，损失函数和交叉熵的区别。
-* LR的损失函数，LR的损失函数的意义
+* [公式推导]('./LR/Formula.md')
+* [模型理解]('./LR/interpret.md')
+* [其他]('./LR/other.md')
+
 
 ### 树模型
-* 如何用回归树做分类
-* 决策树是怎么样进行划分的，决策树的损失函数
-* GBDT中的“梯度提升”，怎么理解？和“梯度下降”有啥异同？
-* XGboost 的节点分裂时候，依靠什么？数学形式？XGboost 比GBDT好在哪？
+* [ID3&C4.5$cart树]('./Tree/ID3&C4.5$cart.md')
+* [GDBT]('./Tree/GDBT.md')
+* [AdBoost]('./Tree/AdBoost.md')
+* [XGboost]('./Tree/XGboost.md')
+* [其他]('./Tree/others.md')
+
+ 
 
 ### 聚类
+* EM算法
 * 手推并描述EM算法
