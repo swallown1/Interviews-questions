@@ -13,6 +13,13 @@
 ### 评估方法
 * [AUC](./DeepLearn/other/evaltion.md)
 
+### 优化方法
+* [SGD](./DeepLearn/other/optimizier.md)
+* [动量](./DeepLearn/other/optimizier.md)
+* [AdaGrad](./DeepLearn/other/optimizier.md)
+* [Adam](./DeepLearn/other/optimizier.md)
+* [RMSprop](./DeepLearn/other/optimizier.md)
+
 ### 损失函数
 * [MES](./DeepLearn/other/evaltion.md)
 
