@@ -10,7 +10,7 @@
 *  [softmax](./DeepLearn/other/activate_fn.md)
 
 
-###评估方法
+### 评估方法
 * [AUC](./DeepLearn/other/evaltion.md)
 
 ### 损失函数
