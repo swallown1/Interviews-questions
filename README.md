@@ -11,7 +11,7 @@
 
 
 ### 评估方法
-* [AUC](./DeepLearn/other/evaltion.md)
+* [AUC](./DeepLearn/other/evaluation.md)
 
 ### 优化方法
 * [SGD](./DeepLearn/other/optimizier.md)
