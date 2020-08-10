@@ -7,5 +7,3 @@
 
 
 
-* word2vec
-* word2vec里面为啥要负采样
