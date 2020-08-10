@@ -6,6 +6,9 @@
 
 ## 深度学习
 
+### NLP
+* [word2vec](./DeepLearn/nlp/word2vec.md)
+
 ### 激活函数
 *  [softmax](./DeepLearn/other/activate_fn.md)
 
